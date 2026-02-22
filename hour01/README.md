@@ -28,8 +28,8 @@ Binary example:
 65 (decimal) = 01000001 (binary)
 
 Binary digit = **bit**
-0 = off
-1 = on
+0 = bulb is off
+1 = bulb is on
 
 8 bits = 1 byte
 
@@ -40,7 +40,7 @@ Binary digit = **bit**
 Character 'A' → 65 → 01000001  
 Character 'a' → 97  
 
-Uppercase to lowercase difference = 32
+Uppercase to lowercase difference = 32, why? Only 1 bit change!
 
 Unicode = superset of ASCII.
 
@@ -58,11 +58,14 @@ Range: 0–255
 White:
 (255, 255, 255)
 
-Each pixel = 3 bytes
+Each pixel color= 3 bytes
 
 ---
 
 ### 5️⃣ Algorithm & Big-O
+
+Algorithm:
+Step by step instruction to convert input to output. 
 
 Binary Search idea:
 Instead of tearing every page in a phonebook,
@@ -71,7 +74,7 @@ divide in half each time.
 Time Complexity:
 - Linear → n
 - Quadratic → n²
-- Logarithmic → log₂n
+- Logarithmic → log₂n 
 
 ---
 
@@ -81,6 +84,7 @@ Built a minimal CLI chatbot to understand:
 - Prompts
 - System instructions
 - Model responses
+- Using OpenAI API calls from VS Code, billing is needed. 
 
 ---
 
