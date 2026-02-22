@@ -2,7 +2,7 @@
 
 ## Back to First Principles
 
-As a working software engineer, I’m revisiting Computer Science fundamentals through Harvard CS50.
+As a working teaching professional, I’m revisiting Computer Science fundamentals through Harvard CS50.
 
 This 24-day challenge is about strengthening foundations — not starting over.
 
